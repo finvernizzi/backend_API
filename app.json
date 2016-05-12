@@ -1,0 +1,23 @@
+{
+  "name": "backend_API",
+  "description": "Simple mongoDB frontend",
+  "scripts": {
+  },
+  "env": {
+    "MUSA_RUN_MODE": "production",
+    "PORT": "8003"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "mongolab"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#v90"
+    }
+  ]
+}
