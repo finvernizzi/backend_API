@@ -1,0 +1,32 @@
+{
+  "name": "backendServer",
+  "version": "0.0.1",
+  "description": "MongoDB App backend",
+  "license": "BSD-3-Clause",
+  "private": true,
+  "scripts": {
+    "start": "./backend_API.js",
+    "test": "mocha ./test/test.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "colors": "^1.1.2",
+    "debug": "~2.2.0",
+    "errorhandler": "^1.4.2",
+    "express": "~4.13.1",
+    "express-logger": "0.0.3",
+    "express-session": "^1.12.1",
+    "hbs": "~3.1.0",
+    "it-each": "^0.3.1",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.0.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0",
+    "session-file-store": "0.0.24"
+  },
+  "devDependencies": {
+    "should": "^8.0.2",
+    "superagent": "^1.6.1"
+  }
+}
